@@ -1,0 +1,14 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    max-width: 1280px;
+    text-align: center;
+  }
+
+  .btn{
+    @apply uppercase md:lowercase md:rounded-full text-center bg-slate-700 p-5 md:p-2 md:w-16 md:h-8 text-base md:text-xs w-2/6 cursor-pointer tracking-wider shadow-md hover:bg-gray-400
+  }
+ 
