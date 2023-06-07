@@ -3,12 +3,40 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-    max-width: 1280px;
-    text-align: center;
+:root{
+  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+}
+@layer utilities {
+  @variants responsive {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
   }
 
-  .btn{
-    @apply uppercase md:lowercase md:rounded-full text-center bg-slate-700 p-5 md:p-2 md:w-16 md:h-8 text-base md:text-xs w-2/6 cursor-pointer tracking-wider shadow-md hover:bg-gray-400
-  }
  
+}
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+.btn-2{
+ @apply bg-slate-600 p-8 mx-20 border-solid border-t-2 text-center border-black hover:text-black hover:bg-slate-100
+}
+
+
+
+.btn{
+    @apply bg-slate-900 rounded-full text-center w-20  p-2 h-10  hover:bg-slate-100 hover:text-black
+
+  }
+
+

@@ -13,8 +13,11 @@ import AboutPage from "./about"
 const MainPage = () => {
 
   return (
-    <main className='bg-gray-800  flex flex-col text-slate-200 md:rounded-t-3xl md:m-8 h-screen shadow-md p-2 ' >
-        <NavBar/>
+    <div className='bg-gray-800 overflow-scroll flex justify-center no-scrollbar text-slate-200 md:rounded-t-3xl md:m-8 h-screen shadow-md  ' >
+   
+       <NavBar/>
+
+      
     <Routes>
       <Route index element={<HomePage/>}/>
       <Route path="/home" element={<HomePage/>}/>
@@ -25,7 +28,7 @@ const MainPage = () => {
      
     </Routes>
   
-      </main>
+      </div>
      
      
     
