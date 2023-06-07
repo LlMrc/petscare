@@ -39,4 +39,8 @@
 
   }
 
+  .rectangle-btn{
+    @apply my-1 px-3  border-gray-500  uppercase hover:bg-slate-700 hover:text-yellow-50
+  }
+
 

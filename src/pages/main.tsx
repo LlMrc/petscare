@@ -13,7 +13,7 @@ import AboutPage from "./about"
 const MainPage = () => {
 
   return (
-    <div className='bg-gray-800 overflow-scroll flex justify-center no-scrollbar text-slate-200 md:rounded-t-3xl md:m-8 h-screen shadow-md  ' >
+    <div className='bg-gray-800 overflow-scroll flex justify-center no-scrollbar text-slate-200 md:rounded-t-3xl md:m-8 h-screen shadow-md   ' >
    
        <NavBar/>
 
