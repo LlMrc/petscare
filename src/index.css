@@ -6,41 +6,64 @@
 :root{
   --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
 }
-@layer utilities {
-  @variants responsive {
-    /* Hide scrollbar for Chrome, Safari and Opera */
-    .no-scrollbar::-webkit-scrollbar {
-        display: none;
-    }
-
-    /* Hide scrollbar for IE, Edge and Firefox */
-    .no-scrollbar {
-        -ms-overflow-style: none;  /* IE and Edge */
-        scrollbar-width: none;  /* Firefox */
-    }
-  }
-
- 
+/* Hide scrollbar for Chrome, Safari and Opera */
+.container-snap::-webkit-scrollbar {
+  display: none;
 }
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.container-snap {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
 *{
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
 }
-.btn-2{
- @apply bg-slate-600 p-8 mx-20 border-solid border-t-2 text-center border-black hover:text-black hover:bg-slate-100
+
+body{
+
+  background-image: url(./src/assets/bg-image.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
 }
 
 
+.custom-shape-divider-bottom-1686275232 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
 
+.custom-shape-divider-bottom-1686275232 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 61px;
+
+}
+
+.custom-shape-divider-bottom-1686275232 .shape-fill {
+  fill: #E2E8F0;
+}
+
+ 
 .btn{
-    @apply bg-slate-900 rounded-full text-center w-20  p-2 h-10  hover:bg-slate-100 hover:text-black
+    @apply bg-slate-100 rounded-full text-center w-20 shadow-md shadow-purple-800 p-2 h-10  hover:bg-slate-900 hover:text-white
 
   }
 
   .rectangle-btn{
-    @apply my-1 px-3  border-gray-500  uppercase hover:bg-slate-700 hover:text-yellow-50
+    @apply my-2 px-3  border-gray-500 py-4   md:uppercase hover:bg-slate-700 hover:text-yellow-50
   }
 
-
+.card-btn{
+  @apply   border-gray-500 px-4  md:uppercase hover:bg-slate-700 hover:text-yellow-50
+}
