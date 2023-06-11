@@ -1,5 +1,5 @@
 
-import TestimonialLeft from './testimonial'
+import TestimonialLeft from '../pages/testimonial'
 import TestimonialRight from './testimonialRight'
 import a1 from "../assets/40.jpg";
 import a2 from "../assets/45.jpg";

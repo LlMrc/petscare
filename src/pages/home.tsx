@@ -28,7 +28,7 @@ const HomePage = () => {
         <Subtitle
           subtitle={" Discover the Stories of Our Satisfied Customers"}
         />
-        <Banner />
+          <Banner />
         <Tchat />
 
         <div className="md:w-3/5 md:mt-20 mt-10">
@@ -43,9 +43,10 @@ const HomePage = () => {
             }
           />
         </div>
-
+       
         <ContactForm />
         <CustomerService />
+     
         <CarousselSlide />
       </main>
 

@@ -35,7 +35,13 @@ const slide = [
   },
   {
     url: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/39/e7/e3/dan-s-creek-hotel.jpg?w=1000&h=-1&s=1",
-  }
+  },
+  {
+    url: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/29/5b/ad/dan-s-creek-hotel.jpg?w=1000&h=-1&s=1",
+  },
+  {
+    url: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/d3/e2/f8/inside-main-gallery-of.jpg?w=1200&h=-1&s=1",
+  },
 ];
 
 const previewBtn = (
