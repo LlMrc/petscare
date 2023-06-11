@@ -51,7 +51,7 @@ body{
 }
 
 .custom-shape-divider-bottom-1686275232 .shape-fill {
-  fill: #E2E8F0;
+  fill: #f9fafb
 }
 
  
@@ -64,6 +64,3 @@ body{
     @apply my-2 px-3  border-gray-500 py-4   md:uppercase hover:bg-slate-700 hover:text-yellow-50
   }
 
-.card-btn{
-  @apply   border-gray-500 px-4  md:uppercase hover:bg-slate-700 hover:text-yellow-50
-}
